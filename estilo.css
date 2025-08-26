@@ -1,0 +1,33 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.contenedorcartas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.carta {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    width: 130px;
+}
+
+.carta img {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.carta p {
+    font-weight: bold;
+    margin: 0;
+}
