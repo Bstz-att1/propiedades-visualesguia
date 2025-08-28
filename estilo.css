@@ -89,7 +89,7 @@ body {
     font-size: 2rem; font-weight: 1.5rem;
 }
 #cell {
-    box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);letter-spacing: 1em;text-shadow: #ff024a 1px 0 10px
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);letter-spacing: 1em;text-shadow: #1900f7 1px 0 10px
 }
 #cell img {
     padding: 0.5em;
