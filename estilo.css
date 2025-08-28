@@ -74,7 +74,7 @@ body {
 }
 #babidi{
     background: #dec400;
-background: radial-gradient(circle, rgba(222, 196, 0, 1) 0%, rgba(255, 0, 0, 1) 50%, rgba(11, 181, 170, 1) 100%);
+    background: radial-gradient(circle, rgba(222, 196, 0, 1) 0%, rgba(255, 0, 0, 1) 50%, rgba(11, 181, 170, 1) 100%);
 }
 #bardock {
     text-transform: uppercase;letter-spacing: 1em;text-shadow: #7cff02 1px 0 10px;
@@ -85,6 +85,27 @@ background: radial-gradient(circle, rgba(222, 196, 0, 1) 0%, rgba(255, 0, 0, 1) 
 #bulma {
     font-size: 1.5rem;font-weight: 2rem;
 }
-#Buugordo {
+#buugordo {
     font-size: 2rem; font-weight: 1.5rem;
+}
+#cell {
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);letter-spacing: 1em;text-shadow: #ff024a 1px 0 10px
+}
+#cell img {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+#chichi {
+    font-size: 25px;font-weight: 75rem;    
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}/*entre los tres la diferncia es que mientras px, es una unidad absoluta que solo cambia gracias valor que le demos, em depende del valor que tenga en px el contenedor
+y rem con cada unidad que equivale a cierta cantidad de px*/
+#dende2{
+    max-width: 100%;height: auto;
 }
