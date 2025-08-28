@@ -1,20 +1,96 @@
-.contenedor {
-    position: relative;
-    width: 1500px;
-    height: 1500px;
-    background-color: blue;
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3faff;
+    justify-items: center;
 }
-.contenido {
-        position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(19, 180, 28);
+
+.barranav {
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 60px;
+    height: 60px;
 }
-.contenido2 {
-        position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(252, 100, 12);
-    top: 0;
-    left: 200px;
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    margin-left: 660px;
+}
+
+.logo span {
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.links-nav {
+    float: right;
+    margin-right: 575px;
+    margin-top: 15px;
+}
+
+.links-nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.links-nav .boton {
+    background-color: #5cb6f9;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.hombre {
+    clear: both;
+    padding: 130px 60px;
+}
+
+.hombre-texto {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hombre-texto h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hombre-texto p {
+    color: #6c757d;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.boton-secundario {
+    background-color: #5cb6f9;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0px 10px 20px rgba(92, 182, 249, 0.3);
+}
+
+.hombre-imagen {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+
+.hombre-imagen img {
+    width: 400px;
+    border-radius: 30px;
 }
